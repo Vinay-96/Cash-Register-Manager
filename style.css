@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color:#93C5FD;
+    --primary-color:#8B5CF6;
 }
 
 body{
@@ -27,4 +27,54 @@ margin: 4rem auto 7rem;
     display: block;
     font-size: large;
     font-weight: 600;
+}
+.input{
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: .5rem;
+    width: 100%;
+    max-width: 258px;
+}
+#check-button {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
+  
+#error-message {
+    display: block;
+    font-size: larger;
+    margin: 1rem 0 0;
+}
+  
+  /* Table */
+.change-table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+}
+  
+.change-table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+}
+  
+th,
+td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
 }
